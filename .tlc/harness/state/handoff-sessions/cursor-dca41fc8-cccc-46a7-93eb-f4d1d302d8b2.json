@@ -1,0 +1,51 @@
+{
+  "schema": "harness.handoff-session.v1",
+  "owner": {
+    "session_key": "cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2",
+    "provider": "cursor",
+    "updated_at": "2026-09-29T23:09:27.326Z"
+  },
+  "slice": {
+    "updated_at": "2026-09-29T23:09:27.326Z",
+    "turn_base_sha": "b6f2e0b",
+    "last_stop_status": "completed",
+    "last_changed_files": [
+      ".gitignore",
+      ".cursor/memory/escritorio.md",
+      ".cursor/rules/escritorio.mdc",
+      ".cursor/rules/harness-lessons.mdc",
+      ".tlc/harness/lessons.md",
+      ".tlc/harness/state/.seal/handoff.json.json",
+      ".tlc/harness/state/audit.jsonl",
+      ".tlc/harness/state/boot/cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a",
+      ".tlc/harness/state/debug.jsonl",
+      ".tlc/harness/state/fingerprint.json",
+      ".tlc/harness/state/handoff-sessions/.seal/cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a.json.json",
+      ".tlc/harness/state/handoff-sessions/.seal/cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2.json.json",
+      ".tlc/harness/state/handoff-sessions/cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a.json",
+      ".tlc/harness/state/handoff-sessions/cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2.json",
+      ".tlc/harness/state/handoff.json",
+      ".tlc/harness/state/loops/cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2.json",
+      ".tlc/harness/state/obs.jsonl",
+      ".tlc/harness/state/parent-model.json",
+      ".tlc/harness/state/policy-baseline/cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a.json",
+      ".tlc/harness/state/policy-baseline/cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2.json",
+      ".tlc/harness/state/presence/cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a.json",
+      ".tlc/harness/state/presence/cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2.json",
+      ".tlc/harness/state/secret-redaction.json",
+      ".tlc/harness/state/sessions/cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a.json",
+      ".tlc/harness/state/sessions/cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2.json",
+      ".tlc/harness/state/shell-stall.json",
+      "odoo/cysar_brand/__init__.py",
+      "odoo/cysar_brand/__manifest__.py",
+      "odoo/cysar_brand/static/src/scss/primary_variables.scss",
+      "odoo/cysar_proxy/__init__.py",
+      "odoo/cysar_proxy/__manifest__.py",
+      "odoo/cysar_proxy/models/__init__.py",
+      "odoo/cysar_proxy/models/ir_http.py"
+    ],
+    "last_gate_result": "pass",
+    "next_action": "Continue or commit when ready.",
+    "fingerprint_hits": 0
+  }
+}

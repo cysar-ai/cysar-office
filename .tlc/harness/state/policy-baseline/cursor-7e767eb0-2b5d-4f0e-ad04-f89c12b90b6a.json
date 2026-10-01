@@ -1,0 +1,33 @@
+{
+  "schema": "harness.policy-baseline.v1",
+  "sources": [
+    {
+      "path": "/Users/dp/code/cysar/github/cysar-office/.tlc/harness/config.json",
+      "hash": "absent"
+    },
+    {
+      "path": "/Users/dp/.tlc/harness/config.json",
+      "hash": "89627fd694ef2df1e339ec0b466f4217ee9710c04a2649ed6ca738bcdc71e193"
+    },
+    {
+      "path": "/Users/dp/code/cysar/github/cysar-office/.tlc/harness/state/harness-mode",
+      "hash": "absent"
+    },
+    {
+      "path": "/Users/dp/code/cysar/github/cysar-office/.tlc/harness/state/flags/grind-on",
+      "hash": "absent"
+    },
+    {
+      "path": "/Users/dp/code/cysar/github/cysar-office/.tlc/harness/state/flags/skip-verify",
+      "hash": "absent"
+    },
+    {
+      "path": "/Users/dp/code/cysar/github/cysar-office/.tlc/harness/state/flags/focus",
+      "hash": "absent"
+    },
+    {
+      "path": "/Users/dp/code/cysar/github/cysar-office/.tlc/harness/state/flags/paired",
+      "hash": "absent"
+    }
+  ]
+}

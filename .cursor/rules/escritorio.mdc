@@ -1,0 +1,20 @@
+---
+description: Memória do escritório Cysar — consultar e atualizar fatos duráveis
+alwaysApply: true
+---
+
+# Escritório Cysar
+
+Este repositório reúne as ferramentas de trabalho do escritório da Cysar. Cada sistema externo entra como um MCP.
+
+A memória durável está em `.cursor/memory/escritorio.md`. Leia esse arquivo ao tratar de um assunto do escritório e atualize-o na mesma sessão quando surgir um fato novo (MCP ligado, projeto, convenção ou decisão).
+
+Não grave API keys, tokens nem outros segredos na memória nem em arquivo versionado. Configuração com segredo fica em `.cursor/mcp.json`, que está no `.gitignore`.
+
+Estado em 2026-09-29:
+
+- EasyPanel MCP habilitado e testado (easypanel 2.36.0) em `http://46.202.144.250:3000`. A URL com a API key está só em `.cursor/mcp.json`.
+- Projeto acessível no painel: `cysar`.
+- Uso: `search_procedures` antes de executar; depois `execute_query`, `execute_mutation` ou `execute_destructive`, conforme o risco.
+- Google Calendar MCP autenticado na conta `cysar@cysar.ai` (apelido `pessoal`, fuso `America/Fortaleza`). O JSON OAuth e os tokens ficam em `.cursor/` e no `.gitignore`.
+- Odoo em `https://crm-office.cysar.ai`, banco `odoo`. O MCP lê o `.env`. Não gravar a senha nem a `ODOO_MCP_KEY` na memória.

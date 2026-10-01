@@ -1,0 +1,11 @@
+{
+  "schema": "harness.parent-model.v1",
+  "bySession": {
+    "cursor-32dd6400-4228-4b44-ae05-264cff6194b1": {
+      "model": "grok-4.7-high",
+      "model_params": null,
+      "fast": false,
+      "updated_at": "2026-10-01T10:19:12.116Z"
+    }
+  }
+}

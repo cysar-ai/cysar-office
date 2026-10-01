@@ -70,6 +70,20 @@ web_modules/
 .env.*
 !.env.example
 
+# MCPs locais (API key do EasyPanel e credenciais OAuth do Google Calendar)
+.cursor/mcp.json
+.cursor/google-calendar-oauth.json
+.cursor/google-calendar-tokens.json
+.cursor/client_secret_*.json
+
+# Logs do harness gravam saída de ferramenta, inclusive credenciais de MCP
+.tlc/harness/state/audit.jsonl
+.tlc/harness/state/debug.jsonl
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache

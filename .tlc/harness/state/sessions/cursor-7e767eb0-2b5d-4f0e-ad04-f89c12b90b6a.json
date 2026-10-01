@@ -1,0 +1,131 @@
+{
+  "session_id": "cursor-7e767eb0-2b5d-4f0e-ad04-f89c12b90b6a",
+  "provider": "cursor",
+  "started_at": "2026-09-29T23:03:36.363Z",
+  "updated_at": "2026-09-30T12:03:07.893Z",
+  "models": {
+    "grok-4.7-high": 21,
+    "grok-4.7": 721
+  },
+  "tools": {
+    "Read": {
+      "ok": 57,
+      "fail": 36,
+      "ms": 0
+    },
+    "MCP:odoo_discover": {
+      "ok": 5,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_search": {
+      "ok": 63,
+      "fail": 0,
+      "ms": 0
+    },
+    "Shell": {
+      "ok": 104,
+      "fail": 12,
+      "ms": 0
+    },
+    "Write": {
+      "ok": 92,
+      "fail": 2,
+      "ms": 0
+    },
+    "Delete": {
+      "ok": 5,
+      "fail": 0,
+      "ms": 0
+    },
+    "Grep": {
+      "ok": 29,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_get_related": {
+      "ok": 4,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_model_info": {
+      "ok": 6,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_get": {
+      "ok": 2,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:search_procedures": {
+      "ok": 4,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:execute_mutation": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_create": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:get-freebusy": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:create-event": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    }
+  },
+  "subagents": {},
+  "gates": {
+    "pass": 0,
+    "fail": 0
+  },
+  "denials": 2,
+  "prompts": 21,
+  "responses": 0,
+  "thoughts": 0,
+  "comped": 2,
+  "shell": {
+    "allow": 115,
+    "ask": 0,
+    "deny": 1,
+    "byRule": {
+      "shell-stall": 1
+    }
+  },
+  "railsByRule": {
+    "shell-stall": 1,
+    "edit-collision": 2
+  },
+  "gatesByName": {},
+  "gateTime": {},
+  "injected_chars": 2470,
+  "durable_chars": 669,
+  "hook_context_reliable": false,
+  "mcp": {
+    "odoo_discover": 5,
+    "odoo_search": 61,
+    "odoo_get_related": 4,
+    "odoo_model_info": 6,
+    "odoo_get": 2,
+    "search_procedures": 4,
+    "execute_mutation": 1,
+    "odoo_create": 1,
+    "get-freebusy": 1,
+    "create-event": 1
+  },
+  "estimated_cost_usd": 0,
+  "cost_incomplete": false,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost_alert_sent": false
+}

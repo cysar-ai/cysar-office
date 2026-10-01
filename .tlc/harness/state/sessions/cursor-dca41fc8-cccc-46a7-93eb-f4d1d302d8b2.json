@@ -1,0 +1,136 @@
+{
+  "session_id": "cursor-dca41fc8-cccc-46a7-93eb-f4d1d302d8b2",
+  "provider": "cursor",
+  "started_at": "2026-09-29T19:47:03.518Z",
+  "updated_at": "2026-09-29T22:54:30.418Z",
+  "models": {
+    "grok-4.7-high-fast": 19,
+    "grok-4.7": 556
+  },
+  "tools": {
+    "Grep": {
+      "ok": 19,
+      "fail": 0,
+      "ms": 0
+    },
+    "Read": {
+      "ok": 92,
+      "fail": 13,
+      "ms": 0
+    },
+    "Write": {
+      "ok": 72,
+      "fail": 0,
+      "ms": 0
+    },
+    "Shell": {
+      "ok": 59,
+      "fail": 3,
+      "ms": 0
+    },
+    "MCP:search_procedures": {
+      "ok": 23,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:execute_query": {
+      "ok": 30,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:get-current-time": {
+      "ok": 2,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:list-events": {
+      "ok": 3,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:manage-accounts": {
+      "ok": 3,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:list-calendars": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:execute_destructive": {
+      "ok": 8,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_search": {
+      "ok": 7,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_model_info": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_create": {
+      "ok": 1,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_write": {
+      "ok": 2,
+      "fail": 0,
+      "ms": 0
+    },
+    "Delete": {
+      "ok": 2,
+      "fail": 0,
+      "ms": 0
+    }
+  },
+  "subagents": {},
+  "gates": {
+    "pass": 0,
+    "fail": 0
+  },
+  "denials": 0,
+  "prompts": 19,
+  "responses": 0,
+  "thoughts": 0,
+  "comped": 1,
+  "shell": {
+    "allow": 61,
+    "ask": 0,
+    "deny": 1,
+    "byRule": {
+      "policy-surface-write": 1
+    }
+  },
+  "railsByRule": {
+    "policy-surface-write": 1
+  },
+  "gatesByName": {},
+  "gateTime": {},
+  "injected_chars": 0,
+  "durable_chars": 0,
+  "hook_context_reliable": false,
+  "mcp": {
+    "search_procedures": 21,
+    "execute_query": 31,
+    "get-current-time": 2,
+    "list-events": 3,
+    "manage-accounts": 3,
+    "list-calendars": 1,
+    "execute_destructive": 8,
+    "odoo_search": 7,
+    "odoo_model_info": 1,
+    "odoo_create": 1,
+    "odoo_write": 2
+  },
+  "estimated_cost_usd": 0,
+  "cost_incomplete": false,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost_alert_sent": false
+}

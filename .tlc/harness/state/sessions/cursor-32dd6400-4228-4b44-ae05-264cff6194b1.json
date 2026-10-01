@@ -1,0 +1,73 @@
+{
+  "session_id": "cursor-32dd6400-4228-4b44-ae05-264cff6194b1",
+  "provider": "cursor",
+  "started_at": "2026-09-30T19:13:31.968Z",
+  "updated_at": "2026-10-01T10:19:06.795Z",
+  "models": {
+    "grok-4.7-high": 2,
+    "grok-4.7": 43
+  },
+  "tools": {
+    "Read": {
+      "ok": 4,
+      "fail": 0,
+      "ms": 0
+    },
+    "Write": {
+      "ok": 3,
+      "fail": 0,
+      "ms": 0
+    },
+    "Grep": {
+      "ok": 3,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:list-events": {
+      "ok": 5,
+      "fail": 0,
+      "ms": 0
+    },
+    "MCP:odoo_search": {
+      "ok": 7,
+      "fail": 0,
+      "ms": 0
+    },
+    "Shell": {
+      "ok": 3,
+      "fail": 0,
+      "ms": 0
+    }
+  },
+  "subagents": {},
+  "gates": {
+    "pass": 0,
+    "fail": 0
+  },
+  "denials": 0,
+  "prompts": 2,
+  "responses": 0,
+  "thoughts": 0,
+  "comped": 0,
+  "shell": {
+    "allow": 3,
+    "ask": 0,
+    "deny": 0,
+    "byRule": {}
+  },
+  "railsByRule": {},
+  "gatesByName": {},
+  "gateTime": {},
+  "injected_chars": 2470,
+  "durable_chars": 669,
+  "hook_context_reliable": false,
+  "mcp": {
+    "list-events": 5,
+    "odoo_search": 7
+  },
+  "estimated_cost_usd": 0,
+  "cost_incomplete": false,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost_alert_sent": false
+}
